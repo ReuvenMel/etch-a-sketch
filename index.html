@@ -10,13 +10,13 @@
 <body>
     <h1>Etch-a-sketch</h1>
     <div class="header">
-        <h3 id="selectedSize">Select the size </h3>
+        <h3 id="selectedSize"></h3>
         <button onclick="selectSize()" id="popup">Select</button>
     </div>
     <div class="board"></div>
     <div class="footer">
       <input id="color-picker" type="color" oninput="changeColor(this.value)">
-      <button onclick="changeColor(hsl(${Math.random() * 360}, 100%, 50%))">Random</button>
+      <button onclick="changeColor(`hsl(${Math.random() * 360}, 100%, 50%)`)">Random</button>
         <button onclick="resetBoard()">Reset</button>
     </div>
 
