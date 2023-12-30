@@ -8,9 +8,9 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
-    width: 400px;
+    width: 250px;
 }
 
 .footer {
@@ -19,6 +19,7 @@ body {
     width: 500px;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 .board {
